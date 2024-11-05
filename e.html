@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Simple E-Commerce</h1>
+        <div id="cart">
+            <button id="cart-btn">Cart (0)</button>
+        </div>
+    </header>
+    
+    <section id="products">
+        <!-- Product list will be dynamically inserted here -->
+    </section>
+
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <h2>Your Cart</h2>
+            <ul id="cart-items"></ul>
+            <button id="checkout-btn">Checkout</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
